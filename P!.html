@@ -1,0 +1,540 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>S. Ramanathan | Portfolio</title>
+
+
+    <style>
+
+        /* BASIC */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+        }
+
+
+        /* HEADER */
+
+        header {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-top: 15px;
+        }
+
+
+        /* NAVIGATION */
+
+        nav {
+            background-color: #0f172a;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+
+        /* SECTIONS */
+
+        section {
+            background-color: white;
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            color: #0f172a;
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 8px;
+        }
+
+
+        /* SKILLS */
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e0f2fe;
+            color: #0369a1;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+
+        /* PROJECTS */
+
+        .project {
+            background-color: #f8fafc;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #38bdf8;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            color: #0f172a;
+        }
+
+
+        /* EDUCATION */
+
+        .education {
+            background-color: #f8fafc;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #38bdf8;
+        }
+
+
+        /* CONTACT */
+
+        .contact p {
+            margin: 12px 0;
+        }
+
+        .contact a {
+            color: #0284c7;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 15px;
+                padding: 20px;
+            }
+
+            header img {
+                width: 110px;
+                height: 110px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>S. Ramanathan</h1>
+
+        <p>
+            B.E. Computer Science and Engineering Student
+        </p>
+
+        <img src="Blazer.jpg"
+             alt="S. Ramanathan">
+
+    </header>
+
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#certifications">
+            Certifications
+        </a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I am <strong>S. Ramanathan</strong>,
+            a Computer Science and Engineering student
+            interested in software development,
+            web development, Artificial Intelligence
+            and UI/UX design.
+        </p>
+
+        <p>
+            I enjoy creating useful applications and
+            solving real-world problems using technology.
+        </p>
+
+    </section>
+
+
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <span class="skill">Java</span>
+
+            <span class="skill">Python</span>
+
+            <span class="skill">C</span>
+
+            <span class="skill">HTML</span>
+
+            <span class="skill">CSS</span>
+
+            <span class="skill">JavaScript</span>
+
+            <span class="skill">React</span>
+
+            <span class="skill">FastAPI</span>
+
+            <span class="skill">GitHub</span>
+
+            <span class="skill">UI/UX</span>
+
+            <span class="skill">AI & ML</span>
+
+            <span class="skill">IoT</span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+
+        <div class="project">
+
+            <h3>1. Resolve360</h3>
+
+            <p>
+                An AI-powered enterprise customer experience
+                and autonomous dispute resolution platform.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                React, FastAPI, LangGraph, RAG, Claude AI
+            </p>
+
+        </div>
+
+
+        <div class="project">
+
+            <h3>2. Smart Irrigation System</h3>
+
+            <p>
+                A solar-powered smart irrigation system using
+                ESP32 and soil moisture sensors to automate
+                agricultural water management.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                ESP32, IoT, Sensors, Blynk
+            </p>
+
+        </div>
+
+
+        <div class="project">
+
+            <h3>3. Resume Match Pro</h3>
+
+            <p>
+                An application that helps users analyze
+                resumes and compare their skills with
+                job requirements.
+            </p>
+
+        </div>
+
+
+        <div class="project">
+
+            <h3>4. Full Stack Blog</h3>
+
+            <p>
+                A blogging website with authentication,
+                database integration and content management.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HACKATHON -->
+
+    <section>
+
+        <h2>Hackathon Experience</h2>
+
+        <div class="project">
+
+            <h3>Resolve360</h3>
+
+            <p>
+                Worked as a UI/UX Designer and frontend
+                contributor in an AI-based enterprise
+                customer resolution project.
+            </p>
+
+            <p>
+                <strong>Achievement:</strong>
+                Selected among the Top 6 Teams.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- EDUCATION -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+
+        <div class="education">
+
+            <h3>
+                B.E. Computer Science and Engineering
+            </h3>
+
+            <p>
+                <strong>
+                    V.S.B. College of Engineering
+                    Technical Campus
+                </strong>
+            </p>
+
+            <p>
+                Expected Graduation: 2028
+            </p>
+
+            <p>
+                Focus Areas: Software Development,
+                AI/ML, Web Development and UI/UX.
+            </p>
+
+        </div>
+
+
+        <div class="education">
+
+            <h3>
+                Higher Secondary Education
+            </h3>
+
+            <p>
+                Completed Higher Secondary Education.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CERTIFICATIONS -->
+
+    <section id="certifications">
+
+        <h2>Certifications</h2>
+
+        <ul>
+
+            <li>
+                Programming and Software Development
+            </li>
+
+            <li>
+                Artificial Intelligence and Machine Learning
+            </li>
+
+            <li>
+                Web Development
+            </li>
+
+            <li>
+                UI/UX Design
+            </li>
+
+        </ul>
+
+    </section>
+
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <div class="contact">
+
+            <p>
+                <strong>Email:</strong>
+
+                <a href="mailto:samynathan299@gmail.com">
+                    samynathan299@gmail.com
+                </a>
+            </p>
+
+
+            <p>
+                <strong>Phone:</strong>
+                +91 9171484351
+            </p>
+
+
+            <p>
+                <strong>Location:</strong>
+                Madurai,Tamil Nadu, India
+            </p>
+
+
+            <p>
+                <strong>GitHub:</strong>
+
+                <a href="https://github.com/Ram132631"
+                   target="_blank">
+
+                    GitHub Profile
+
+                </a>
+            </p>
+
+
+            <p>
+                <strong>LinkedIn:</strong>
+
+                <a href="https://www.linkedin.com/in/ramanathan-s-19b1a137b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                   target="_blank">
+
+                    LinkedIn Profile
+
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 S. Ramanathan
+        </p>
+
+        <p>
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+```
